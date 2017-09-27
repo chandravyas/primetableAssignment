@@ -18,3 +18,15 @@ https://maven.apache.org/install.html
 Once you have maven run the below command from the primetable root folder:
 
 mvn clean install
+
+3) Complexity Considerations
+
+* Generating the multiplication table is O(n**2) complexity since we have to multiply each prime by it's corresponding counterpart
+
+* Displaying the table is O(n**2) since we're just iterating through the table and displaying each row. (there are 'n' number of rows)
+
+* Consider complexity. How fast does your code run? How does it scale? -As the 'N' gets bigger the program is going to start slowing down because we are using trial division to determine if the number is prime. However, for small 'n' number of primes this solution will suffice.
+
+* Consider cases where we want for bigger N primes. -In the case where we want 'N' number of primes, we would need to reimplement our prime check and pre-compute and store a list of primes up to a certain number. Then before testing the number in question for primality, we divide it by the primes in our list first
+
+https://en.wikipedia.org/wiki/Primality_test

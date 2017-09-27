@@ -4,6 +4,7 @@
 
 Prerequisite : Java 8 run time environment should be present
 run the below command from the primetable folder:
+
 java -cp primetable-1.0-SNAPSHOT.jar com.chandra.task.PrimeMatrix <argument>
 
 For example command and output please refer to output.txt 
@@ -15,4 +16,5 @@ Here are the steps to install maven locally
 https://maven.apache.org/install.html
 
 Once you have maven run the below command from the primetable root folder:
+
 mvn clean install

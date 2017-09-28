@@ -30,3 +30,7 @@ mvn clean install
 * Consider cases where we want for bigger N primes. -In the case where we want 'N' number of primes, we would need to reimplement our prime check and pre-compute and store a list of primes up to a certain number. Then before testing the number in question for primality, we divide it by the primes in our list first
 
 https://en.wikipedia.org/wiki/Primality_test
+
+4) Unit Testing
+
+PrimeMatrixTest.java is written to do unit testing using JUnit 
